@@ -1,0 +1,99 @@
+@CHARSET "ISO-8859-1";
+
+.formtable {
+	width: 400px;
+	padding: 10px;
+	border: 1px solid blue;
+}
+
+input[type=text] {
+	width: 150px;
+	margin-left: 10px;
+}
+
+input[type=password] {
+	width: 150px;
+	margin-left: 10px;
+}
+
+textarea {
+	width: 250px;
+	height: 300px;
+}
+
+.label {
+	text-align: right;
+	vertical-align: top;
+}
+
+.control {
+	margin-left: 10px;
+}
+
+.error {
+	font-size: small;
+	color: red;
+	margin-left: 10px;
+}
+
+.valid {
+	font-size: small;
+	color: green;
+	margin-left: 10px;
+}
+
+.t_display {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.t_header, .t_column {
+	text-align: left;
+	padding: px;
+}
+
+.t_row:nth-child(even) {
+	background-color: #ffe6e6;
+}
+
+.t_header {
+	background-color: #58bf2c;
+	color: white;
+}
+
+div.footer {
+	font-size: small;
+	color: gray;
+}
+
+div.content {
+	position: relative;
+	padding: 40px;
+}
+
+div.header {
+	
+	position:relative;
+	text-align: center;
+	width: 100%;
+	height:40px;
+	background-color: red
+}
+
+a.login{
+	
+	position: absolute;
+	top:10px;
+	right:10px;
+	color: white;
+}
+
+a.title{
+	
+	color: white;
+	font-size: 35px
+}
+
+input.delete{
+	border: 1px solid red;
+}

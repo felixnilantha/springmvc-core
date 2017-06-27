@@ -1,0 +1,1 @@
+<h3>Your offer has been deleted .....</h3>
